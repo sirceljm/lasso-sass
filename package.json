@@ -1,5 +1,5 @@
 {
-  "name": "lasso-sass",
+  "name": "awly-lasso-sass",
   "description": "Lasso.js plugin to support compilation of sass dependencies",
   "keywords": [
     "lasso",
@@ -8,27 +8,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lasso-js/lasso-sass.git"
+    "url": "https://github.com/sirceljm/lasso-sass.git"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint *.js"
   },
-  "author": "Patrick Steele-Idem <pnidem@gmail.com>",
+  "author": "Matej Šircelj <pnidem@gmail.com> (https://github.com/sirceljm/)",
   "contributors": [
     "Patrick Steele-Idem <pnidem@gmail.com>",
     "Phillip Gates-Idem <phillip.idem@gmail.com>"
   ],
   "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
   "dependencies": {
-    "node-sass": "^4.5.0",
+    "node-sass": "^4.9.2",
     "raptor-logging": "^1.0.1",
     "raptor-util": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "jshint": "^2.5.5",
-    "lasso": "^2.11.12",
-    "mocha": "^3.2.0"
+    "lasso": "^3.2.1",
+    "mocha": "^5.2.0"
   },
   "license": "Apache License v2.0",
   "bin": {},
